@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- First Group: Main Navigation -->
+    <group
+        android:id="@+id/group_main_navigation"
+        android:checkableBehavior="single">
+
+        <!-- Home -->
+        <item
+            android:id="@+id/nav_home"
+            android:title="All Tasks"
+            android:icon="@drawable/notes"/>
+        <item
+            android:id="@+id/personal"
+            android:title="Personal Tasks"
+            android:icon="@drawable/user"/>
+
+        <!-- Completed Tasks -->
+        <item
+            android:id="@+id/work"
+            android:title="Work Tasks"
+            android:icon="@drawable/freelance"/>
+        <item
+            android:id="@+id/home"
+            android:title="Home Tasks"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/complete"
+            android:title="Complete Tasks"
+            android:icon="@drawable/freelance"/>
+    </group>
+
+    <!-- Second Group: Settings and Options -->
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="none">
+
+        <!-- Settings -->
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/setting"/>
+    </group>
+
+    <!-- Third Group: Sharing Options -->
+    <group
+        android:id="@+id/group_share"
+        android:checkableBehavior="none">
+
+        <!-- Share -->
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@android:drawable/ic_menu_share">
+
+            <!-- Submenu for Share -->
+            <menu>
+                <item
+                    android:id="@+id/nav_share_facebook"
+                    android:title="Share on Facebook"
+                    android:icon="@android:drawable/ic_menu_send" />
+                <item
+                    android:id="@+id/nav_share_twitter"
+                    android:title="Share on Twitter"
+                    android:icon="@android:drawable/ic_menu_send" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

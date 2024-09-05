@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pacifico"
+        android:hint="Enter task title"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskTitle"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/pacifico"
+        android:hint="Enter task description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonSaveTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="126dp"
+        android:gravity="center"
+        android:backgroundTint="#55679C"
+        android:fontFamily="@font/pacifico"
+        android:text="Save Task"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageViewTaskIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSaveTask"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/rem" />
+</RelativeLayout>

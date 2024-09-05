@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="defaultColor">#7C93C3</color>
+    <color name="gray">#696969</color>
+
+
+    <!-- Primary App Colors -->
+    <color name="colorPrimary">#7581C5</color>  <!-- Background color for headers -->
+    <color name="colorPrimaryDark">#3A4C8F</color>  <!-- Darker shade of primary color -->
+    <color name="colorAccent">#DCEFECEC</color>  <!-- Text color for headers -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color>  <!-- General background color -->
+    <color name="colorLightGray">#F3F4F6</color>  <!-- Light gray for fields background -->
+    <color name="colorButtonGray">#B1ABAB</color>  <!-- Button background color -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#150F0F</color>  <!-- Primary text color -->
+    <color name="colorTextSecondary">#8B8B8B</color>  <!-- Secondary text color -->
+
+    <!-- Additional Colors -->
+    <color name="colorError">#D32F2F</color>  <!-- Error message color -->
+    <color name="colorHint">#757575</color>
+
+    <color name="bg1">#FFCDD2</color>
+    <color name="bg2">#C5CAE9</color>
+    <color name="bg3">#E1BEE7</color>
+    <color name="bg4">#B2DFDB </color>
+    <color name="bg5">#C8E6C9  </color>
+    <color name="bg6">#BBDEFB</color>
+    <color name="bg7">#FFCDD2</color>
+    <color name="bg8">#B2EBF2</color>
+    <color name="bg9">#D1C4E9</color>
+    <color name="bg10">#BBDEFB</color>
+
+    <color name="text1">#B71C1C</color>
+    <color name="text2">#880E4F</color>
+    <color name="text3">#4A148C</color>
+    <color name="text4">#311B92</color>
+    <color name="text5">#1A237E</color>
+    <color name="text6">#0D47A1</color>
+    <color name="text7">#01579B</color>
+    <color name="text8">#006064</color>
+    <color name="text9">#004D40</color>
+    <color name="text10">#1B5E20</color>
+
+
+    <!-- Hint text color -->
+    <color name="light_lavender">#E6E6FA</color>
+    <color name="lavender">#EDE7F6</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="mauve">#E0B0FF</color>
+    <color name="orchid">#DA70D6</color>
+
+    <!-- Medium shades -->
+    <color name="medium_purple">#9370DB</color>
+    <color name="rebecca_purple">#663399</color>
+    <color name="medium_slate_blue">#7B68EE</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="amethyst">#9966CC</color>
+
+    <color name="splash_background_color">#FFFFFF</color>
+    <color name="gradient_start">#4A148C</color>
+    <color name="gradient_end">#D1C4E9</color>
+</resources>
